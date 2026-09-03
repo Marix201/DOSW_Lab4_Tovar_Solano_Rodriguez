@@ -33,7 +33,7 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | HU-03 |
+| **ID** | DOSW-9 |
 | **Título** | Consulta de equipos registrados en un torneo |
 | **Descripción** | Como organizador, quiero visualizar la lista de equipos registrados en un torneo, para verificar el estado de las inscripciones y hacer seguimiento antes de que inicie el torneo |
 | **Prioridad** | Media |
@@ -101,7 +101,7 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | TR-07 |
+| **ID** | DOSW-11 |
 | **Título** | Diseñar consulta de equipos por torneo |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para obtener los equipos asociados a un torneo, para tener una base sólida antes de implementar el endpoint  |
@@ -109,7 +109,7 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | TR-08 |
+| **ID** | DOSW-12 |
 | **Título** | Implementar endpoint/vista de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista de equipos registrados filtrados por torneo, para que el organizador pueda consultarlos desde la interfaz  |
@@ -117,7 +117,7 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | TR-09 |
+| **ID** | DOSW-13 |
 | **Título** | Pruebas de la funcionalidad de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla  |
