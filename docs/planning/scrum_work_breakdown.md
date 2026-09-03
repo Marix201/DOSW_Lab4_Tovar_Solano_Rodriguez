@@ -36,15 +36,15 @@
 | **ID** | HU-03 |
 | **Título** | Consulta de equipos registrados en un torneo |
 | **Descripción** | Como organizador, quiero visualizar la lista de equipos registrados en un torneo, para verificar el estado de las inscripciones y hacer seguimiento antes de que inicie el torneo |
-| **Prioridad** | |
-| **Estimación** | |
+| **Prioridad** | Media |
+| **Estimación** | 3 puntos |
 
 | Campo | Descripción |
 | --- | --- |
 | **ID** | HU-04 |
 | **Título** | Validación de pago de inscripción |
 | **Descripción** | Como organizador, quiero validar y aprobar (o rechazar) el pago de inscripción de un equipo, para asegurar que solo equipos con pago confirmado participen en el torneo |
-| **Prioridad** |Media |
+| **Prioridad** | Media |
 | **Estimación** |5 puntos de historia |
 
 ### 3. Tareas:
@@ -73,6 +73,7 @@
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Escribir pruebas unitarias que validen el listado correcto (torneo con equipos, torneo vacío, acceso restringido a organizador) |
 | **Tareas requisito** | TR-08 |
+
 | Campo | Descripción |
 | --- | --- |
 | **ID** | TR-10 |
