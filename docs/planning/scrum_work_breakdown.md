@@ -52,7 +52,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | DOSW-6 |
+| **ID** | DOSW-16 |
 | **Título** | Diseñar modelo de datos del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Como desarrollador, quiero diseñar el modelo de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado), para tener una base clara antes de implementar la funcionalidad |
@@ -60,7 +60,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | DOSW-7 |
+| **ID** | DOSW-17 |
 | **Título** | Implementar creación y cambio de estado del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Como desarrollador, quiero implementar la creación de torneos y el cambio de sus estados (Pendiente, Activo, En progreso, Cerrado, Cancelado), para que el organizador pueda gestionarlos correctamente |
@@ -68,7 +68,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | DOSW-8 |
+| **ID** | DOSW-18 |
 | **Título** | Validar regla de torneo único activo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Como desarrollador, quiero implementar la validación que garantiza que solo un torneo esté Activo a la vez, para cumplir con la regla de negocio del caso de estudio |
@@ -76,7 +76,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-04 |
+| **ID** |DOSW-19  |
 | **Título** | Diseñar flujo de registro de equipo |
 | **ID de la Historia de Uso asociada** | HU-02 |
 | **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para registrar un equipo en el torneo activo, para tener una base clara antes de implementar la funcionalidad |
@@ -84,7 +84,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-05 |
+| **ID** | DOSW-20 |
 | **Título** | Implementar registro de equipo |
 | **ID de la Historia de Uso asociada** | HU-02 |
 | **Descripción** | Como desarrollador, quiero implementar el registro de un equipo en el torneo activo, para que el capitán pueda formalizar la participación de su equipo |
@@ -92,7 +92,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-06 |
+| **ID** | DOSW-21 |
 | **Título** | Integrar pago de inscripción por PSE |
 | **ID de la Historia de Uso asociada** | HU-02 |
 | **Descripción** | Como desarrollador, quiero integrar el pago de la tarifa de inscripción mediante PSE, dejando el pago en estado pendiente hasta su validación, para completar el flujo de registro del equipo |
