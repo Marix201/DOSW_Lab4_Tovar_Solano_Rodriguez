@@ -97,5 +97,25 @@ Como desarrollador, quiero probar la funcionalidad de listado con distintos esce
 
 ## 5. Backlog:
 
+### Sprint 1
+
+**Historias incluidas:**
+
+| ID | Historia | Prioridad | Estimación |
+| --- | --- | --- | --- |
+| DOSW-14 | Creación de torneo | Alta | 8 pts |
+| DOSW-15 | Registro e inscripción de equipo a un torneo | Alta | 8 pts |
+
+**Total estimado:** 16 puntos
+
+**Tareas asignadas:**
+
+| ID | Tarea | Historia | Asignado a |
+| --- | --- | --- | --- |
+| DOSW-16 | Diseñar modelo de datos del torneo | DOSW-14 | Paula |
+| DOSW-17 | Implementar creación y cambio de estado del torneo | DOSW-14 | Mariana |
+| DOSW-18 | Validar regla de torneo único activo | DOSW-14 | Natalia |
+| DOSW-19 | Diseñar flujo de registro de equipo | DOSW-15 |
+
 <img width="1483" height="418" alt="image" src="https://github.com/user-attachments/assets/2462ec58-3e09-4ee4-bd05-994e18564ff0" />
 
