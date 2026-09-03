@@ -33,7 +33,7 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | HU-03 |
+| **ID** | DOSW-9 |
 | **Título** | Consulta de equipos registrados en un torneo |
 | **Descripción** | Como organizador, quiero visualizar la lista de equipos registrados en un torneo, para verificar el estado de las inscripciones y hacer seguimiento antes de que inicie el torneo |
 | **Prioridad** | Media |
@@ -100,7 +100,7 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | TR-07 |
+| **ID** | DOSW-11 |
 | **Título** | Diseñar consulta de equipos por torneo |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para obtener los equipos asociados a un torneo, para tener una base sólida antes de implementar el endpoint  |
@@ -108,43 +108,43 @@
 
 | Campo | Descripción |
 |---|---|
-| **ID** | TR-08 |
+| **ID** | DOSW-12 |
 | **Título** | Implementar endpoint/vista de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista de equipos registrados filtrados por torneo, para que el organizador pueda consultarlos desde la interfaz  |
-| **Tareas requisito** | TR-07 |
+| **Tareas requisito** | DOSW-11 |
 
 | Campo | Descripción |
 |---|---|
-| **ID** | TR-09 |
+| **ID** | DOSW-13 |
 | **Título** | Pruebas de la funcionalidad de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla  |
-| **Tareas requisito** | TR-08 |
+| **Tareas requisito** | DOSW-12 |
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-10 |
+| **ID** | DOSW-6 |
 | **Título** | Diseñar el flujo de validación de pago |
-| **ID de la Historia de Uso asociada** | HU-04 |
+| **ID de la Historia de Uso asociada** | DOSW-2 |
 | **Descripción** | Como desarrollador, quiero diseñar el flujo de validación de pago, para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | ninguna |
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-11 |
+| **ID** | DOSW-7 |
 | **Título** | Implementar cambio de estado del pago |
-| **ID de la Historia de Uso asociada** | HU-04 |
+| **ID de la Historia de Uso asociada** | DOSW-2 |
 | **Descripción** | Como desarrollador, quiero implementar el cambio de estado del pago, para que el sistema refleje la decisión del organizador |
-| **Tareas requisito** | TR-10 |
+| **Tareas requisito** | DOSW-6 |
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-12 |
+| **ID** | DOSW-8 |
 | **Título** | Implementar notificación de rechazo |
-| **ID de la Historia de Uso asociada** | HU-04 |
+| **ID de la Historia de Uso asociada** | DOSW-2 |
 | **Descripción** | Como desarrollador, quiero implementar la notificación al capitán cuando su pago sea rechazado, para que el equipo se entere y pueda corregir su inscripción |
-| **Tareas requisito** | TR-10, TR-11 |
+| **Tareas requisito** | DOSW-6, DOSW-7 |
 
 ### 4. Justificación de prioridades (Product Owner)
 
