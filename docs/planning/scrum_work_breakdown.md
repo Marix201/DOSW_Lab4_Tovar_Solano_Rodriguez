@@ -8,7 +8,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | EP-01 |
+| **ID** | DOSW-1 |
 | **Título** | Registro y gestión de torneos y equipos en TechCup |
 | **Descripción** | TechCup necesita permitir que los organizadores creen torneos y que los capitanes registren equipos y paguen su inscripción, ya que sin esta base no puede existir ninguna otra operación del sistema (validación de pagos, reportes) |
 | **Stakeholder** | Decanatura de Ingeniería de Sistemas / Organizadores del torneo |
