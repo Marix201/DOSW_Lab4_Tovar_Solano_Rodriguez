@@ -60,19 +60,19 @@ Como organizador, quiero visualizar la lista de equipos registrados en un torneo
 
 Como desarrollador, quiero diseñar la lógica y estructura de datos para obtener los equipos asociados a un torneo, para tener una base sólida antes de implementar el endpoint.
 
-![DOSW-11](../images/T-03.1.png)
+![DOSW-11](../images/DOSW-11.png)
 
 **TR-08 — DOSW-12: Implementar endpoint/vista de listado**
 
 Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista de equipos registrados filtrados por torneo, para que el organizador pueda consultarlos desde la interfaz.
 
-![DOSW-12](../images/T-03.2.png)
+![DOSW-12](../images/DOSW-12.png)
 
 **TR-09 — DOSW-13: Pruebas de la funcionalidad de listado**
 
 Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla.
 
-![DOSW-13](../images/T-03.3.png)
+![DOSW-13](../images/DOSW-13.png)
 
 ### Tareas de HU-04 -ID: DOSW-2
 
