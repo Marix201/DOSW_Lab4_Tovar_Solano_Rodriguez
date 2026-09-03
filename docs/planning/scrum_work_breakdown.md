@@ -18,17 +18,17 @@
 | Campo | Descripción |
 | --- | --- |
 | **ID** | HU-01 |
-| **Título** | |
-| **Descripción** | |
-| **Prioridad** | |
+| **Título** | Creación de torneo |
+| **Descripción** | Como organizador, quiero crear un torneo especificando sus reglas básicas (fechas, tarifa de inscripción), para habilitar la etapa de inscripciones de equipos |
+| **Prioridad** | Alta |
 | **Estimación** | |
 
 | Campo | Descripción |
 | --- | --- |
 | **ID** | HU-02 |
-| **Título** | |
-| **Descripción** | |
-| **Prioridad** | |
+| **Título** | Registro e inscripción de equipo a un torneo |
+| **Descripción** | Como capitán, quiero registrar mi equipo en el torneo activo y pagar la tarifa de inscripción mediante PSE, para formalizar la participación de mi equipo en el torneo |
+| **Prioridad** | Alta |
 | **Estimación** | |
 
 | Campo | Descripción |
@@ -48,6 +48,54 @@
 | **Estimación** |5 puntos de historia |
 
 ### 3. Tareas:
+
+| Campo | Descripción |
+| --- | --- |
+| **ID** | TR-01 |
+| **Título** | Diseñar modelo de datos del torneo |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | Definir la estructura de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado) según las reglas de negocio del caso de estudio |
+| **Tareas requisito** | Ninguna |
+
+| Campo | Descripción |
+| --- | --- |
+| **ID** | TR-02 |
+| **Título** | Implementar creación y cambio de estado del torneo |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | Desarrollar la funcionalidad que permite al organizador crear un torneo y actualizar su estado (Pendiente, Activo, En progreso, Cerrado, Cancelado) |
+| **Tareas requisito** | TR-01 |
+
+| Campo | Descripción |
+| --- | --- |
+| **ID** | TR-03 |
+| **Título** | Validar regla de torneo único activo |
+| **ID de la Historia de Uso asociada** | HU-01 |
+| **Descripción** | Implementar la validación que garantiza que solo un torneo puede estar en estado Activo al mismo tiempo |
+| **Tareas requisito** | TR-02 |
+
+| Campo | Descripción |
+| --- | --- |
+| **ID** | TR-04 |
+| **Título** | Diseñar flujo de registro de equipo |
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | Definir la lógica y estructura de datos para registrar un equipo en el torneo activo |
+| **Tareas requisito** | Ninguna |
+
+| Campo | Descripción |
+| --- | --- |
+| **ID** | TR-05 |
+| **Título** | Implementar registro de equipo |
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | Desarrollar la funcionalidad que permite al capitán registrar su equipo en el torneo activo |
+| **Tareas requisito** | TR-04 |
+
+| Campo | Descripción |
+| --- | --- |
+| **ID** | TR-06 |
+| **Título** | Integrar pago de inscripción por PSE |
+| **ID de la Historia de Uso asociada** | HU-02 |
+| **Descripción** | Implementar el proceso de pago de la tarifa de inscripción a través de PSE, dejando el pago en estado pendiente hasta su validación |
+| **Tareas requisito** | TR-05 |
 
 
 | Campo | Descripción |
@@ -97,3 +145,10 @@
 | **ID de la Historia de Uso asociada** | HU-04 |
 | **Descripción** | Como desarrollador, quiero implementar la notificación al capitán cuando su pago sea rechazado, para que el equipo se entere y pueda corregir su inscripción |
 | **Tareas requisito** | TR-10, TR-11 |
+
+### 4. Justificación de prioridades (Product Owner)
+
+- **HU-01 (Alta):** Sin un torneo creado no puede existir ningún otro flujo del sistema.
+- **HU-02 (Alta):** El registro y pago de equipos es la segunda base indispensable; sin equipos inscritos no hay nada que validar ni listar.
+- **HU-03 (Media):** Es una consulta de apoyo para los organizadores, útil pero no bloqueante para el flujo principal.
+- **HU-04 (Media):** Depende de que ya existan pagos registrados (HU-02), por lo que no es urgente en el arranque del sprint.
