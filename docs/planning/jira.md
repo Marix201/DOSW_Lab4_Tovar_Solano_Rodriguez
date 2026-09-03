@@ -25,8 +25,6 @@ Como organizador, quiero visualizar la lista de equipos registrados en un torneo
 
 ## 3. Tareas:
 
-### Tareas de HU-04 — ID: DOSW-2
-
 ### Tareas de HU-03 — ID: DOSW-9
 
 **TR-07 — DOSW-11: Diseñar consulta de equipos por torneo**
@@ -46,6 +44,8 @@ Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista
 Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla.
 
 ![DOSW-13](../images/T-03.3.png)
+
+### Tareas de HU-04 -ID: DOSW-2
 
 **TR-10 — DOSW-6: Diseñar el flujo de validación de pago**
 
