@@ -125,27 +125,27 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-10 |
+| **ID** | DOSW-6 |
 | **Título** | Diseñar el flujo de validación de pago |
-| **ID de la Historia de Uso asociada** | HU-04 |
+| **ID de la Historia de Uso asociada** | DOSW-2 |
 | **Descripción** | Como desarrollador, quiero diseñar el flujo de validación de pago, para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | ninguna |
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-11 |
+| **ID** | DOSW-7 |
 | **Título** | Implementar cambio de estado del pago |
-| **ID de la Historia de Uso asociada** | HU-04 |
+| **ID de la Historia de Uso asociada** | DOSW-2 |
 | **Descripción** | Como desarrollador, quiero implementar el cambio de estado del pago, para que el sistema refleje la decisión del organizador |
-| **Tareas requisito** | TR-10 |
+| **Tareas requisito** | DOSW-6 |
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-12 |
+| **ID** | DOSW-8 |
 | **Título** | Implementar notificación de rechazo |
-| **ID de la Historia de Uso asociada** | HU-04 |
+| **ID de la Historia de Uso asociada** | DOSW-2 |
 | **Descripción** | Como desarrollador, quiero implementar la notificación al capitán cuando su pago sea rechazado, para que el equipo se entere y pueda corregir su inscripción |
-| **Tareas requisito** | TR-10, TR-11 |
+| **Tareas requisito** | DOSW-6, DOSW-7 |
 
 ### 4. Justificación de prioridades (Product Owner)
 
