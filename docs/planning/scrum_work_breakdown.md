@@ -21,7 +21,7 @@
 | **Título** | Creación de torneo |
 | **Descripción** | Como organizador, quiero crear un torneo especificando sus reglas básicas (fechas, tarifa de inscripción), para habilitar la etapa de inscripciones de equipos |
 | **Prioridad** | Alta |
-| **Estimación** | |
+| **Estimación** | 8 puntos |
 
 | Campo | Descripción |
 | --- | --- |
@@ -29,7 +29,7 @@
 | **Título** | Registro e inscripción de equipo a un torneo |
 | **Descripción** | Como capitán, quiero registrar mi equipo en el torneo activo y pagar la tarifa de inscripción mediante PSE, para formalizar la participación de mi equipo en el torneo |
 | **Prioridad** | Alta |
-| **Estimación** | |
+| **Estimación** | 8 puntos |
 
 | Campo | Descripción |
 |---|---|
@@ -45,7 +45,7 @@
 | **Título** | Validación de pago de inscripción |
 | **Descripción** | Como organizador, quiero validar y aprobar (o rechazar) el pago de inscripción de un equipo, para asegurar que solo equipos con pago confirmado participen en el torneo |
 | **Prioridad** | Media |
-| **Estimación** | |
+| **Estimación** |5 puntos |
 
 ### 3. Tareas:
 
@@ -102,7 +102,7 @@
 |---|---|
 | **ID** | DOSW-11 |
 | **Título** | Diseñar consulta de equipos por torneo |
-| **ID de la Historia de Uso asociada** | HU-03 |
+| **ID de la Historia de Uso asociada** |DOSW-9 |
 | **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para obtener los equipos asociados a un torneo, para tener una base sólida antes de implementar el endpoint  |
 | **Tareas requisito** | Ninguna |
 
@@ -110,7 +110,7 @@
 |---|---|
 | **ID** | DOSW-12 |
 | **Título** | Implementar endpoint/vista de listado |
-| **ID de la Historia de Uso asociada** | HU-03 |
+| **ID de la Historia de Uso asociada** | DOSW-9 |
 | **Descripción** | Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista de equipos registrados filtrados por torneo, para que el organizador pueda consultarlos desde la interfaz  |
 | **Tareas requisito** | DOSW-11 |
 
@@ -118,7 +118,7 @@
 |---|---|
 | **ID** | DOSW-13 |
 | **Título** | Pruebas de la funcionalidad de listado |
-| **ID de la Historia de Uso asociada** | HU-03 |
+| **ID de la Historia de Uso asociada** | DOSW-9 |
 | **Descripción** | Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla  |
 | **Tareas requisito** | DOSW-12 |
 
