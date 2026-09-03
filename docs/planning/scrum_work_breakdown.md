@@ -41,7 +41,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | HU-04 |
+| **ID** | DOSW-2 |
 | **Título** | Validación de pago de inscripción |
 | **Descripción** | Como organizador, quiero validar y aprobar (o rechazar) el pago de inscripción de un equipo, para asegurar que solo equipos con pago confirmado participen en el torneo |
 | **Prioridad** | Media |
@@ -51,7 +51,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-01 |
+| **ID** | DOSW-6 |
 | **Título** | Diseñar modelo de datos del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Definir la estructura de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado) según las reglas de negocio del caso de estudio |
@@ -59,7 +59,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-02 |
+| **ID** | DOSW-7 |
 | **Título** | Implementar creación y cambio de estado del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Desarrollar la funcionalidad que permite al organizador crear un torneo y actualizar su estado (Pendiente, Activo, En progreso, Cerrado, Cancelado) |
@@ -67,7 +67,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-03 |
+| **ID** | DOSW-8 |
 | **Título** | Validar regla de torneo único activo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Implementar la validación que garantiza que solo un torneo puede estar en estado Activo al mismo tiempo |
