@@ -113,7 +113,7 @@
 | **Título** | Implementar endpoint/vista de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista de equipos registrados filtrados por torneo, para que el organizador pueda consultarlos desde la interfaz  |
-| **Tareas requisito** | TR-07 |
+| **Tareas requisito** | DOSW-11 |
 
 | Campo | Descripción |
 |---|---|
@@ -121,7 +121,7 @@
 | **Título** | Pruebas de la funcionalidad de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
 | **Descripción** | Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla  |
-| **Tareas requisito** | TR-08 |
+| **Tareas requisito** | DOSW-12 |
 
 | Campo | Descripción |
 | --- | --- |
