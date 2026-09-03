@@ -54,7 +54,7 @@
 | **ID** | TR-10 |
 | **Título** | Diseñar el flujo de validación de pago |
 | **ID de la Historia de Uso asociada** | HU-04 |
-| **Descripción** | Diseñar el flujo completo de validación, incluyendo el caso de rechazo y la notificación al capitán |
+| **Descripción** | Como desarrollador, quiero diseñar el flujo de validación de pago, para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | ninguna |
 
 | Campo | Descripción |
@@ -62,7 +62,7 @@
 | **ID** | TR-11 |
 | **Título** | Implementar cambio de estado del pago |
 | **ID de la Historia de Uso asociada** | HU-04 |
-| **Descripción** | Implementar el cambio de estado del pago (pendiente → aprobado/rechazado) según la decisión del organizador |
+| **Descripción** | Como desarrollador, quiero implementar el cambio de estado del pago, para que el sistema refleje la decisión del organizador |
 | **Tareas requisito** | TR-10 |
 
 | Campo | Descripción |
@@ -70,5 +70,5 @@
 | **ID** | TR-12 |
 | **Título** | Implementar notificación de rechazo |
 | **ID de la Historia de Uso asociada** | HU-04 |
-| **Descripción** | Implementar la notificación al capitán del equipo cuando su pago sea rechazado |
+| **Descripción** | Como desarrollador, quiero implementar la notificación al capitán cuando su pago sea rechazado, para que el equipo se entere y pueda corregir su inscripción |
 | **Tareas requisito** | TR-10, TR-11 |
