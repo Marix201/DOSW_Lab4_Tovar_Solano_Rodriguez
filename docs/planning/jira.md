@@ -102,21 +102,29 @@ Como desarrollador, quiero probar la funcionalidad de listado con distintos esce
 
 **Historias incluidas:**
 
-| ID | Historia | Prioridad | Estimación |
-| --- | --- | --- | --- |
-| DOSW-14 | Creación de torneo | Alta | 8 pts |
-| DOSW-15 | Registro e inscripción de equipo a un torneo | Alta | 8 pts |
+| ID | Historia | Prioridad | Estimación | Asignado a |
+| --- | --- | --- | --- | --- |
+| DOSW-14 | Creación de torneo | Alta | 8 pts | Paula |
+| DOSW-15 | Registro e inscripción de equipo a un torneo | Alta | 8 pts | Paula |
 
 **Total estimado:** 16 puntos
 
-**Tareas asignadas:**
+**Justificación:** Se decidió incluir HU-01 (DOSW-14) y HU-02 (DOSW-15) en el Sprint 1 porque son las historias de prioridad Alta que forman la base funcional del sistema — sin un torneo creado y un equipo registrado, no puede operar ninguna otra funcionalidad del sistema (validación de pagos, consultas de equipos). Esto representa una carga de 16 puntos de historia para el primer sprint.
 
-| ID | Tarea | Historia | Asignado a |
-| --- | --- | --- | --- |
-| DOSW-16 | Diseñar modelo de datos del torneo | DOSW-14 | Paula |
-| DOSW-17 | Implementar creación y cambio de estado del torneo | DOSW-14 | Mariana |
-| DOSW-18 | Validar regla de torneo único activo | DOSW-14 | Natalia |
-| DOSW-19 | Diseñar flujo de registro de equipo | DOSW-15 |
+### Sprint 2
 
-<img width="1483" height="418" alt="image" src="https://github.com/user-attachments/assets/2462ec58-3e09-4ee4-bd05-994e18564ff0" />
+**Historias incluidas:**
+
+| ID | Historia | Prioridad | Estimación | Asignado a |
+| --- | --- | --- | --- | --- |
+| DOSW-2 | Validación de pago de inscripción | Media | 5 pts | Natalia |
+| DOSW-9 | Consulta de equipos registrados en un torneo | Media | 3 pts | Mariana |
+
+**Total estimado:** 8 puntos
+
+**Justificación:** HU-03 y HU-04, al ser de prioridad Media y depender de que ya existan torneos creados y equipos registrados con pagos asociados, se planificaron para el Sprint 2, con una carga de 8 puntos de historia.
+
+**Captura del sprint (Sprint 1 y Sprint 2):**
+
+![Sprint Backlog](../images/sprint-backlog.png)
 
