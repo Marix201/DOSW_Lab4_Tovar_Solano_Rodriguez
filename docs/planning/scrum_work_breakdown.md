@@ -46,7 +46,7 @@
 | **Descripción** | Como organizador, quiero validar y aprobar (o rechazar) el pago de inscripción de un equipo, para asegurar que solo equipos con pago confirmado participen en el torneo |
 | **Prioridad** | Media |
 | **Estimación** |5 puntos |
-
+| **Video de estimación:** |  [Ver aquí](https://youtu.be/rtetCKUcLpw) |
 ### 3. Tareas:
 
 
