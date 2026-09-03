@@ -8,7 +8,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | EP-01 |
+| **ID** | DOSW-1 |
 | **Título** | Registro y gestión de torneos y equipos en TechCup |
 | **Descripción** | TechCup necesita permitir que los organizadores creen torneos y que los capitanes registren equipos y paguen su inscripción, ya que sin esta base no puede existir ninguna otra operación del sistema (validación de pagos, reportes) |
 | **Stakeholder** | Decanatura de Ingeniería de Sistemas / Organizadores del torneo |
@@ -41,7 +41,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | HU-04 |
+| **ID** | DOSW-2 |
 | **Título** | Validación de pago de inscripción |
 | **Descripción** | Como organizador, quiero validar y aprobar (o rechazar) el pago de inscripción de un equipo, para asegurar que solo equipos con pago confirmado participen en el torneo |
 | **Prioridad** | Media |
@@ -53,7 +53,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-01 |
+| **ID** | DOSW-6 |
 | **Título** | Diseñar modelo de datos del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Como desarrollador, quiero diseñar el modelo de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado), para tener una base clara antes de implementar la funcionalidad |
@@ -61,7 +61,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-02 |
+| **ID** | DOSW-7 |
 | **Título** | Implementar creación y cambio de estado del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Como desarrollador, quiero implementar la creación de torneos y el cambio de sus estados (Pendiente, Activo, En progreso, Cerrado, Cancelado), para que el organizador pueda gestionarlos correctamente |
@@ -69,7 +69,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | TR-03 |
+| **ID** | DOSW-8 |
 | **Título** | Validar regla de torneo único activo |
 | **ID de la Historia de Uso asociada** | HU-01 |
 | **Descripción** | Como desarrollador, quiero implementar la validación que garantiza que solo un torneo esté Activo a la vez, para cumplir con la regla de negocio del caso de estudio |
