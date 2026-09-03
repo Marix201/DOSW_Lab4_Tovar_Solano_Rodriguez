@@ -55,7 +55,7 @@
 | **ID** | TR-07 |
 | **Título** | Diseñar consulta de equipos por torneo |
 | **ID de la Historia de Uso asociada** | HU-03 |
-| **Descripción** | Definir la lógica y estructura de datos para obtener todos los equipos asociados a un torneo específico |
+| **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para obtener los equipos asociados a un torneo, para tener una base sólida antes de implementar el endpoint  |
 | **Tareas requisito** | Ninguna |
 
 | Campo | Descripción |
@@ -63,7 +63,7 @@
 | **ID** | TR-08 |
 | **Título** | Implementar endpoint/vista de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
-| **Descripción** | Desarrollar la funcionalidad backend (y/o vista) que devuelve la lista de equipos registrados, con filtro por torneo |
+| **Descripción** | Como desarrollador, quiero implementar el endpoint o vista que devuelve la lista de equipos registrados filtrados por torneo, para que el organizador pueda consultarlos desde la interfaz  |
 | **Tareas requisito** | TR-07 |
 
 | Campo | Descripción |
@@ -71,7 +71,7 @@
 | **ID** | TR-09 |
 | **Título** | Pruebas de la funcionalidad de listado |
 | **ID de la Historia de Uso asociada** | HU-03 |
-| **Descripción** | Escribir pruebas unitarias que validen el listado correcto (torneo con equipos, torneo vacío, acceso restringido a organizador) |
+| **Descripción** | Como desarrollador, quiero probar la funcionalidad de listado con distintos escenarios (torneo con equipos, torneo vacío, acceso no autorizado), para garantizar que funcione correctamente antes de entregarla  |
 | **Tareas requisito** | TR-08 |
 
 | Campo | Descripción |
