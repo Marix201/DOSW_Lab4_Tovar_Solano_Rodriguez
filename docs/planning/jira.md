@@ -93,6 +93,7 @@ Como desarrollador, quiero probar la funcionalidad de listado con distintos esce
 
 ## 4. Cronograma:
 
+<img width="1506" height="712" alt="image" src="https://github.com/user-attachments/assets/60354648-6922-43a7-9706-e5d01e50ea45" />
 
 
 ## 5. Backlog:
