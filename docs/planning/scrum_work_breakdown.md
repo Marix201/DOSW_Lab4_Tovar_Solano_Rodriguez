@@ -17,7 +17,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | HU-01 |
+| **ID** | DOSW-14|
 | **Título** | Creación de torneo |
 | **Descripción** | Como organizador, quiero crear un torneo especificando sus reglas básicas (fechas, tarifa de inscripción), para habilitar la etapa de inscripciones de equipos |
 | **Prioridad** | Alta |
@@ -25,7 +25,7 @@
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** | HU-02 |
+| **ID** | DOSW-15 |
 | **Título** | Registro e inscripción de equipo a un torneo |
 | **Descripción** | Como capitán, quiero registrar mi equipo en el torneo activo y pagar la tarifa de inscripción mediante PSE, para formalizar la participación de mi equipo en el torneo |
 | **Prioridad** | Alta |
