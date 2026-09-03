@@ -5,10 +5,17 @@
 ## 1. Épica:
 
 **DOSW-1 — Registro y gestión de torneos y equipos en TechCup**
-
-
+<img width="921" height="818" alt="image" src="https://github.com/user-attachments/assets/80cf75d4-2e13-4de8-860f-e8fba4ede563" />
 
 ## 2. Historias de usuario:
+
+
+### HU-01 — Creación de torneo (DOSW-14)
+<img width="717" height="377" alt="image" src="https://github.com/user-attachments/assets/7966a5c8-3134-460c-9c85-45c4c7540267" />
+
+### HU-02 — Registro e inscripción de equipo (DOSW-15)
+<img width="682" height="357" alt="image" src="https://github.com/user-attachments/assets/68a5d026-a61b-4986-9149-6af1c725e196" />
+
 
 ### HU-03 — ID: DOSW-9
 **Consulta de equipos registrados en un torneo**
@@ -26,6 +33,28 @@ Como organizador, quiero visualizar la lista de equipos registrados en un torneo
 ## 3. Tareas:
 
 ### Tareas de HU-03 — ID: DOSW-9
+### DOSW-16 — Diseñar modelo de datos del torneo
+<img width="720" height="408" alt="image" src="https://github.com/user-attachments/assets/eee96022-f02f-40db-8e57-8a4f55688512" />
+
+### DOSW-17 — Implementar creación y cambio de estado
+<img width="722" height="431" alt="image" src="https://github.com/user-attachments/assets/51baace2-ccac-4b5d-8864-b5ec72dc2824" />
+
+
+### DOSW-18 — Validar regla de torneo único activo
+<img width="707" height="367" alt="image" src="https://github.com/user-attachments/assets/5d6579b6-e3b3-4779-8f8c-50bfecdd51f0" />
+
+### DOSW-19 — Diseñar flujo de registro de equipo
+<img width="712" height="377" alt="image" src="https://github.com/user-attachments/assets/5f2aab7c-c6ff-410b-9841-2812650b19f3" />
+
+
+### DOSW-20 — Implementar registro de equipo
+<img width="700" height="368" alt="image" src="https://github.com/user-attachments/assets/5dec05b6-aa90-43df-8367-6a88c5010e90" />
+
+
+### DOSW-21 — Integrar pago de inscripción por PSE
+<img width="688" height="373" alt="image" src="https://github.com/user-attachments/assets/33a6b503-5d63-41a8-86b5-38e4414ce5b4" />
+
+
 
 **TR-07 — DOSW-11: Diseñar consulta de equipos por torneo**
 
