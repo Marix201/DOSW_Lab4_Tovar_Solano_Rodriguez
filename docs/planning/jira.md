@@ -97,4 +97,5 @@ Como desarrollador, quiero probar la funcionalidad de listado con distintos esce
 
 ## 5. Backlog:
 
+<img width="1483" height="418" alt="image" src="https://github.com/user-attachments/assets/2462ec58-3e09-4ee4-bd05-994e18564ff0" />
 
