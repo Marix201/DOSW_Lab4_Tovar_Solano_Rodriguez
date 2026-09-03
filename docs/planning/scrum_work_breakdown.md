@@ -45,11 +45,10 @@
 | **Título** | Validación de pago de inscripción |
 | **Descripción** | Como organizador, quiero validar y aprobar (o rechazar) el pago de inscripción de un equipo, para asegurar que solo equipos con pago confirmado participen en el torneo |
 | **Prioridad** | Media |
-| **Estimación** |5 puntos de historia |
+| **Estimación** | |
 
 ### 3. Tareas:
 
-### 3. Tareas:
 
 | Campo | Descripción |
 | --- | --- |
