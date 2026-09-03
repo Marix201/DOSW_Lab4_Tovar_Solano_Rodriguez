@@ -49,12 +49,13 @@
 
 ### 3. Tareas:
 
+### 3. Tareas:
 
 | Campo | Descripción |
 | --- | --- |
 | **ID** | DOSW-16 |
 | **Título** | Diseñar modelo de datos del torneo |
-| **ID de la Historia de Uso asociada** | HU-01 |
+| **ID de la Historia de Uso asociada** | DOSW-14 |
 | **Descripción** | Como desarrollador, quiero diseñar el modelo de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado), para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | Ninguna |
 
@@ -62,23 +63,23 @@
 | --- | --- |
 | **ID** | DOSW-17 |
 | **Título** | Implementar creación y cambio de estado del torneo |
-| **ID de la Historia de Uso asociada** | HU-01 |
+| **ID de la Historia de Uso asociada** | DOSW-14 |
 | **Descripción** | Como desarrollador, quiero implementar la creación de torneos y el cambio de sus estados (Pendiente, Activo, En progreso, Cerrado, Cancelado), para que el organizador pueda gestionarlos correctamente |
-| **Tareas requisito** | TR-01 |
+| **Tareas requisito** | DOSW-16 |
 
 | Campo | Descripción |
 | --- | --- |
 | **ID** | DOSW-18 |
 | **Título** | Validar regla de torneo único activo |
-| **ID de la Historia de Uso asociada** | HU-01 |
+| **ID de la Historia de Uso asociada** | DOSW-14 |
 | **Descripción** | Como desarrollador, quiero implementar la validación que garantiza que solo un torneo esté Activo a la vez, para cumplir con la regla de negocio del caso de estudio |
-| **Tareas requisito** | TR-02 |
+| **Tareas requisito** | DOSW-17 |
 
 | Campo | Descripción |
 | --- | --- |
-| **ID** |DOSW-19  |
+| **ID** | DOSW-19 |
 | **Título** | Diseñar flujo de registro de equipo |
-| **ID de la Historia de Uso asociada** | HU-02 |
+| **ID de la Historia de Uso asociada** | DOSW-15 |
 | **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para registrar un equipo en el torneo activo, para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | Ninguna |
 
@@ -86,17 +87,17 @@
 | --- | --- |
 | **ID** | DOSW-20 |
 | **Título** | Implementar registro de equipo |
-| **ID de la Historia de Uso asociada** | HU-02 |
+| **ID de la Historia de Uso asociada** | DOSW-15 |
 | **Descripción** | Como desarrollador, quiero implementar el registro de un equipo en el torneo activo, para que el capitán pueda formalizar la participación de su equipo |
-| **Tareas requisito** | TR-04 |
+| **Tareas requisito** | DOSW-19 |
 
 | Campo | Descripción |
 | --- | --- |
 | **ID** | DOSW-21 |
 | **Título** | Integrar pago de inscripción por PSE |
-| **ID de la Historia de Uso asociada** | HU-02 |
+| **ID de la Historia de Uso asociada** | DOSW-15 |
 | **Descripción** | Como desarrollador, quiero integrar el pago de la tarifa de inscripción mediante PSE, dejando el pago en estado pendiente hasta su validación, para completar el flujo de registro del equipo |
-| **Tareas requisito** | TR-05 |
+| **Tareas requisito** | DOSW-20 |
 
 | Campo | Descripción |
 |---|---|
