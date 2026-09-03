@@ -49,12 +49,14 @@
 
 ### 3. Tareas:
 
+### 3. Tareas:
+
 | Campo | Descripción |
 | --- | --- |
 | **ID** | TR-01 |
 | **Título** | Diseñar modelo de datos del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
-| **Descripción** | Definir la estructura de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado) según las reglas de negocio del caso de estudio |
+| **Descripción** | Como desarrollador, quiero diseñar el modelo de datos del torneo (ID de 5 dígitos, fechas, tarifa, estado), para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | Ninguna |
 
 | Campo | Descripción |
@@ -62,7 +64,7 @@
 | **ID** | TR-02 |
 | **Título** | Implementar creación y cambio de estado del torneo |
 | **ID de la Historia de Uso asociada** | HU-01 |
-| **Descripción** | Desarrollar la funcionalidad que permite al organizador crear un torneo y actualizar su estado (Pendiente, Activo, En progreso, Cerrado, Cancelado) |
+| **Descripción** | Como desarrollador, quiero implementar la creación de torneos y el cambio de sus estados (Pendiente, Activo, En progreso, Cerrado, Cancelado), para que el organizador pueda gestionarlos correctamente |
 | **Tareas requisito** | TR-01 |
 
 | Campo | Descripción |
@@ -70,7 +72,7 @@
 | **ID** | TR-03 |
 | **Título** | Validar regla de torneo único activo |
 | **ID de la Historia de Uso asociada** | HU-01 |
-| **Descripción** | Implementar la validación que garantiza que solo un torneo puede estar en estado Activo al mismo tiempo |
+| **Descripción** | Como desarrollador, quiero implementar la validación que garantiza que solo un torneo esté Activo a la vez, para cumplir con la regla de negocio del caso de estudio |
 | **Tareas requisito** | TR-02 |
 
 | Campo | Descripción |
@@ -78,7 +80,7 @@
 | **ID** | TR-04 |
 | **Título** | Diseñar flujo de registro de equipo |
 | **ID de la Historia de Uso asociada** | HU-02 |
-| **Descripción** | Definir la lógica y estructura de datos para registrar un equipo en el torneo activo |
+| **Descripción** | Como desarrollador, quiero diseñar la lógica y estructura de datos para registrar un equipo en el torneo activo, para tener una base clara antes de implementar la funcionalidad |
 | **Tareas requisito** | Ninguna |
 
 | Campo | Descripción |
@@ -86,7 +88,7 @@
 | **ID** | TR-05 |
 | **Título** | Implementar registro de equipo |
 | **ID de la Historia de Uso asociada** | HU-02 |
-| **Descripción** | Desarrollar la funcionalidad que permite al capitán registrar su equipo en el torneo activo |
+| **Descripción** | Como desarrollador, quiero implementar el registro de un equipo en el torneo activo, para que el capitán pueda formalizar la participación de su equipo |
 | **Tareas requisito** | TR-04 |
 
 | Campo | Descripción |
@@ -94,9 +96,8 @@
 | **ID** | TR-06 |
 | **Título** | Integrar pago de inscripción por PSE |
 | **ID de la Historia de Uso asociada** | HU-02 |
-| **Descripción** | Implementar el proceso de pago de la tarifa de inscripción a través de PSE, dejando el pago en estado pendiente hasta su validación |
+| **Descripción** | Como desarrollador, quiero integrar el pago de la tarifa de inscripción mediante PSE, dejando el pago en estado pendiente hasta su validación, para completar el flujo de registro del equipo |
 | **Tareas requisito** | TR-05 |
-
 
 | Campo | Descripción |
 |---|---|
